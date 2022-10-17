@@ -17,7 +17,6 @@ struct GeometryReaderBootcamp: View {
     
     var body: some View {
         
-        
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
                 ForEach(0..<20) { index in

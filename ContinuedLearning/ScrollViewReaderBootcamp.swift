@@ -16,6 +16,7 @@ struct ScrollViewReaderBootcamp: View {
         VStack {
             TextField("Enter a # here...", text: $textFieldText)
                 .frame(height: 55)
+                .padding(.leading)
                 .border(Color.gray)
                 .padding(.horizontal)
                 .keyboardType(.numberPad)
