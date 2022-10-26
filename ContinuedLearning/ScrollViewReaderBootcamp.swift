@@ -28,7 +28,6 @@ struct ScrollViewReaderBootcamp: View {
                     }
                 }
             }
-            
             ScrollView {
                 ScrollViewReader { proxy in
                     ForEach(0..<50) { index in
